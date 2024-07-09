@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #65B741 !important;
+}
+
+#card{
+    background-color: #93CD7A;
+    border-radius: 40px;
+}
+
+input[type=email], input[type=password]{
+    background-color: transparent;
+    border: solid 1px white;
+}
+.card{
+    background-color: #93CD7A !important;
+}
+#about-us h3{
+    background-color: #93CD7A;
+}

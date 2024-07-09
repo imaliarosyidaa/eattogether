@@ -19,4 +19,69 @@ input[type=email], input[type=password]{
 }
 #about-us h3{
     background-color: #93CD7A;
+    text-align: center;
+    font-weight: bold;
+}
+
+#profile span{
+    background-color: #FFCC72;
+    padding: 0px 5px;
+}
+
+.bg-green{
+    background-color: rgba(217, 217, 217, 0.5);
+    width: max-content;
+    padding: 0px 10px;
+}
+
+.btn-1{
+    background-color: transparent;
+    border: solid 1px white;
+    padding: 7px 30px;
+    width: 150px;
+    color:white;
+}
+
+.btn-2{
+    background-color: #84C668;
+    border: none;
+    padding: 7px 30px;
+    width: 150px;
+    color:white;
+}
+#profile img{
+    margin: 30px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown button{
+    background-color: white;
+    border: none;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
 }

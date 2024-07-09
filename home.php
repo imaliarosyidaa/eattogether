@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="navbar bg-light navbar-expand-sm px-5 py-3 shadow-sm">
+        <div class="container-fluid">
+            <div><img src="images/logo.png" alt="" srcset=""> Eat Thogether</div>
+            <div class="d-flex align-items-center">
+                <form class="d-flex col" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <ul class="navbar-nav col">
+                    <li class="nav-item"><a class="nav-link" href="home.php">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button">
+                        <img src="images/Hamburger-Menu-1--Streamline-Core-Remix.svg.png" width="30px" height="30px" alt="" srcset="">
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="profile.php">Profile</a>
+                        <a class="dropdown-item" href="education.php">Education</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="beranda" class="mb-5 pb-5">
+        <div class="z-1 position-absolute text-center rounded-bottom-0" style="padding: 100px 20px 20px;border-radius:50%; height:450px;width: 490px; background-color:white">
+            <h2>EAT TOGETHER</h2>
+            <p>Merupakan penjual makanan yang menyediakan menu makanan beragam mulai dari makanan cepat saji hingga makanan sehat dan lezat </p>
+        </div>
+        <div class="container mt-5">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner text-center">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col">
+                                <div class="card mx-auto">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Dessert</h5>
+                                        <img src="images/cake-54 1.png" width="150px" height="150px" alt="" srcset="">
+                                        <p class="card-text">Merupakan makanan penutup atau makanan pencuci mulut yang biasa disajikan di akhir dari susunan menu.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card mx-auto">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Dessert</h5>
+                                        <img src="images/cake-54 1.png" width="150px" height="150px" alt="" srcset="">
+                                        <p class="card-text">Merupakan makanan penutup atau makanan pencuci mulut yang biasa disajikan di akhir dari susunan menu.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card mx-auto">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Dessert</h5>
+                                        <img src="images/cake-54 1.png" width="150px" height="150px" alt="" srcset="">
+                                        <p class="card-text">Merupakan makanan penutup atau makanan pencuci mulut yang biasa disajikan di akhir dari susunan menu.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col">
+                                <div class="card mx-auto">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Dessert</h5>
+                                        <img src="images/cake-54 1.png" width="150px" height="150px" alt="" srcset="">
+                                        <p class="card-text">Merupakan makanan penutup atau makanan pencuci mulut yang biasa disajikan di akhir dari susunan menu.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card mx-auto">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Dessert</h5>
+                                        <img src="images/cake-54 1.png" width="150px" height="150px" alt="" srcset="">
+                                        <p class="card-text">Merupakan makanan penutup atau makanan pencuci mulut yang biasa disajikan di akhir dari susunan menu.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card mx-auto">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Dessert</h5>
+                                        <img src="images/cake-54 1.png" width="150px" height="150px" alt="" srcset="">
+                                        <p class="card-text">Merupakan makanan penutup atau makanan pencuci mulut yang biasa disajikan di akhir dari susunan menu.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="tentang" class="p-5">
+        <h2 class="py-5 ps-4">EAT TOGETHER</h2>
+        <div class="card p-5" style="width: 744px;">
+            Eat Together merupakan onliine store yang bergerak dalam bidang makanan. Makanan yang disajikan oleh Eat Together memiliki banyak varian pilihan mulai dari aneka dessert, fast food dan juga makanan sehat. Eat Together juga menyediakan jasa pengiriman antar kota dan dapat melakukan metode pembayaran melalui cash ataupun debit-kredit card
+        </div>
+        <div class="d-flex justify-content-end" style="margin-top: -190px;">
+            <img width="600px" height="600px" src="images/eating-salad-12 2.png" alt="" srcset="">
+        </div>
+    </div>
+    <div id="desert" class="p-5">
+        <h2 class="py-5 ps-4">DESERT</h2>
+        <div class="row container">
+            <div class="col">
+                <img width="452px" height="398px" src="images/cake-54 2.png" alt="" srcset="">
+            </div>
+            <div class="col text-light">
+                <p>Dessert adalah hidangan yang disukai oleh berbagai kalangan dan biasanya disuguhkan di bagian akhir dalam susunan menu tujuannya sebagai makanan penutup atau pencuci mulut untuk menghilangkan kesan dari rasa hidangan terdahulu.
+                    Dessert biasa dikenal dengan sebutan the last course atau the final course yang selalu identik dengan makanan manis dan menyegarkan </p>
+            </div>
+        </div>
+    </div>
+    <div id="hero" class="text-center text-light p-5">
+        <h1>HERO to ZERO WASTE</h1>
+        <h5>Bersama Eat Together, kamu bisa menjadi agen perubahan menuju Semarang yang lebih hebat!</h5>
+        <div class="container row mb-4 mt-4">
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body text-light">
+                        <img src="images/Store-1--Streamline-Core.svg.png" alt="" srcset="">
+                        <h4>PENJUAL</h4>
+                        <p>Kamu bisa turut berperan dengan menjualkan pangan berlebihmu yang masih layak konsumsi</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body text-light">
+                        <img src="images/Shopping-Cart-2--Streamline-Core.svg.png" alt="" srcset="">
+                        <h4>PEMBELI</h4>
+                        <p>Kamu bisa turut berperan sekaligus mengehamt uang belanjamu, dengan membeli pangan layak konsumsi</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body text-light">
+                        <img src="images/Transfer-Motorcycle--Streamline-Core.svg.png" alt="" srcset="">
+                        <h4>ANTAR-JEMPUT</h4>
+                        <p>Kami menyediakan layanan antar-jemput bagi kamu yang melakukan transaksi </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container row">
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body text-light">
+                        <img src="images/Gift-2--Streamline-Core.svg.png" alt="" srcset="">
+                        <h4>DONASI</h4>
+                        <p>Gabung bersama kami dengan membantu memberi makan teman-teman yang membutuhkan di luar sana</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body text-light">
+                        <img src="images/Praying-Hand--Streamline-Core.svg.png" alt="" srcset="">
+                        <h4>RELAWAN</h4>
+                        <p>Gabung jadi relawan sekarang dan bersama kita bisa membuat Semarang jadi kota yang lebih baik!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body text-light">
+                        <img src="images/Multiple-File-2--Streamline-Core.svg.png" alt="" srcset="">
+                        <h4>BERITA</h4>
+                        <p>Jelajah dan belajar bersama kami melalui berita, informasi, serta tips dan trik yang berguna untukmu</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="about-us" class="p-5">
+        <h2 class="py-5 ps-4">EAT TOGETHER</h2>
+        <div class="container row">
+            <div class="col-4">
+                <h3>CABANG SURABAYA</h3>
+                <div class="card">
+                    <div class="card-body">
+                        <ul>
+                            <li>Alamat: Jl. Melati No. 10, Surabaya, Indonesia</li>
+                            <li>Telepon: +62 8226453787</li>
+                            <li>WhatsApp: +62 8227777598</li>
+                            <li>Email: eattogether@gmail.com</li>
+                            <li>Jam Layanan Pelanggan:
+                                <ul>
+                                    <li>Senin - Jumat: 08:00 - 20:00</li>
+                                    <li>Sabtu: 08:00 - 16:00</li>
+                                    <li>Minggu: Tutup</li>
+                                </ul>
+                            </li>
+                            <li>Hubungi kami di media sosial:
+                                <ul>
+                                    <li>Facebook: eat.together</li>
+                                    <li>Instagram: @eat.together</li>
+                                    <li>Pinterest: @eat.together</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <h3>CABANG SEMARANG</h3>
+                <div class="card">
+                    <div class="card-body">
+                        Kami selalu siap mendengarkan Anda! Untuk pertanyaan lebih lanjut atau informasi mengenai produk kami, silakan hubungi kami:
+                        <ul>
+                            <li>Alamat: Jl. Pahlawan No. 25, Semarang, Indonesia</li>
+                            <li>Telepon: +62 8826661110</li>
+                            <li>WhatsApp: +62 881234125</li>
+                            <li>Email: eattogether@gmail.com</li>
+                            <li>Jam Layanan Pelanggan:
+                                <ul>
+                                    <li>Senin - Jumat: 08:00 - 20:00</li>
+                                    <li>Sabtu: 08:00 - 16:00</li>
+                                    <li>Minggu: Tutup</li>
+                                </ul>
+                            </li>
+                            <li>Hubungi kami di media sosial:
+                                <ul>
+                                    <li>Facebook: eat.together</li>
+                                    <li>Instagram: @eat.together</li>
+                                    <li>Pinterest: @eat.together</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <h3>CABANG KUDUS</h3>
+                <div class="card">
+                    <div class="card-body">
+                        Kami selalu siap mendengarkan Anda! Untuk pertanyaan lebih lanjut atau informasi mengenai produk kami, silakan hubungi kami:
+                        <ul>
+                            <li>Alamat: Jl. Makmur No. 07, Kudus, Indonesia</li>
+                            <li>Telepon: +62 812564235</li>
+                            <li>WhatsApp: +62 8111889654</li>
+                            <li>Email: eattogether@gmail.com</li>
+                            <li>Jam Layanan Pelanggan:
+                                <ul>
+                                    <li>Senin - Jumat: 08:00 - 20:00</li>
+                                    <li>Sabtu: 08:00 - 16:00</li>
+                                    <li>Minggu: Tutup</li>
+                                </ul>
+                            </li>
+                            <li>Hubungi kami di media sosial:
+                                <ul>
+                                    <li>Facebook: eat.together</li>
+                                    <li>Instagram: @eat.together</li>
+                                    <li>Pinterest: @eat.together</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

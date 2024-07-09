@@ -10,7 +10,23 @@
 </head>
 
 <body>
-    <?php include 'partials/navbar.php'; ?>
+    <nav class="navbar bg-light navbar-expand-sm px-5 py-3 shadow-sm">
+        <div class="container-fluid">
+            <div><img src="images/logo.png" alt="" srcset=""> Eat Thogether</div>
+            <div class="row">
+                <ul class="navbar-nav col">
+                    <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+                <form class="d-flex col" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
     <div class="row container p-5">
         <div class="col-md-6">
             <div id="card" class="card p-5">
@@ -33,7 +49,7 @@
                         <a href="#" class="text-decoration-none">Forgot password?</a>
                     </div>
                     <div class="d-grid">
-                        <button type="submit" class="btn btn-primary">Signup</button>
+                        <button type="button" class="btn btn-primary"><a href="home.php" style="text-decoration: none; color: white">Signup</a></button>
                     </div>
                 </form>
                 <div class="d-grid gap-2 mt-4">
@@ -47,89 +63,6 @@
         </div>
         <div class="col-md-6">
             <img width="600px" height="600px" src="images/eating-salad-12 2.png" alt="" srcset="">
-        </div>
-    </div>
-    <div id="about-us" class="p-5">
-        <h2 class="py-5 ps-4">EAT TOGETHER</h2>
-        <div class="container row">
-            <div class="col-4">
-                <h3>CABANG SURABAYA</h3>
-                <div class="card">
-                    <div class="card-body">
-                        Kami selalu siap mendengarkan Anda! Untuk pertanyaan lebih lanjut atau informasi mengenai produk kami, silakan hubungi kami:
-                        <ul>
-                            Alamat: Jl. Melati No. 10, Surabaya, Indonesia
-                            Telepon: +62 8226453787
-                            WhatsApp: +62 8227777598
-                            Email: eattogether@gmail.com
-                            Jam Layanan Pelanggan:
-                            Senin - Jumat: 08:00 - 20:00
-                            Sabtu: 08:00 - 16:00
-                            Minggu: Tutup
-                            Hubungi kami di media sosial:
-                            Facebook: eat.together
-                            Instagram: @eat.together
-                            Pinterest: @eat.together
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                <h3>CABANG SEMARANG</h3>
-                <div class="card">
-                    <div class="card-body">
-                        Kami selalu siap mendengarkan Anda! Untuk pertanyaan lebih lanjut atau informasi mengenai produk kami, silakan hubungi kami:
-                        <ul>
-                            <li>Alamat: Jl. Pahlawan No. 25, Semarang, Indonesia</li>
-                            <li>Telepon: +62 8826661110</li>
-                            <li>WhatsApp: +62 881234125</li>
-                            <li>Email: eattogether@gmail.com</li>
-                            <li>Jam Layanan Pelanggan:
-                                <ul>
-                                    <li>Senin - Jumat: 08:00 - 20:00</li>
-                                    <li>Sabtu: 08:00 - 16:00</li>
-                                    <li>Minggu: Tutup</li>
-                                </ul>
-                            </li>
-                            <li>Hubungi kami di media sosial:
-                                <ul>
-                                    <li>Facebook: eat.together</li>
-                                    <li>Instagram: @eat.together</li>
-                                    <li>Pinterest: @eat.together</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                <h3>CABANG KUDUS</h3>
-                <div class="card">
-                    <div class="card-body">
-                        Kami selalu siap mendengarkan Anda! Untuk pertanyaan lebih lanjut atau informasi mengenai produk kami, silakan hubungi kami:
-                        <ul>
-                            <li>Alamat: Jl. Makmur No. 07, Kudus, Indonesia</li>
-                            <li>Telepon: +62 812564235</li>
-                            <li>WhatsApp: +62 8111889654</li>
-                            <li>Email: eattogether@gmail.com</li>
-                            <li>Jam Layanan Pelanggan:
-                                <ul>
-                                    <li>Senin - Jumat: 08:00 - 20:00</li>
-                                    <li>Sabtu: 08:00 - 16:00</li>
-                                    <li>Minggu: Tutup</li>
-                                </ul>
-                            </li>
-                            <li>Hubungi kami di media sosial:
-                                <ul>
-                                    <li>Facebook: eat.together</li>
-                                    <li>Instagram: @eat.together</li>
-                                    <li>Pinterest: @eat.together</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </body>
